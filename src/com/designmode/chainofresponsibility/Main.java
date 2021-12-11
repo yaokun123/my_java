@@ -47,7 +47,7 @@ public class Main {
         fc.doFilter(msg);
 
         // 如果想和另外一个FilterChain连起来该怎么办？
-
+        // 让FilterChain也实现Filter接口
 
 
         System.out.println(msg);
