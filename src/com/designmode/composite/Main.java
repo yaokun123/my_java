@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 组合模式
+ * 组合模式，处理树状结构
  */
 abstract class Node{
     abstract public void p();
