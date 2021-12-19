@@ -1,6 +1,7 @@
 package com.designmode.a_singleton;
 
 /**
+ * 单例模式
  * 饿汉式
  * 类加载到内存后，就实例化一个单例，JVM保证线程安全(每个class只会load到内存一次)
  * 简单实用，推荐使用
