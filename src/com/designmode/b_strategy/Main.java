@@ -2,6 +2,9 @@ package com.designmode.b_strategy;
 
 import java.util.Arrays;
 
+/**
+ * 策略模式
+ */
 public class Main {
     public static void main(String[] args){
         //int[] a = {9,2,3,5,7,1,4};
