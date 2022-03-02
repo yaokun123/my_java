@@ -38,5 +38,21 @@ public class Main {
         list2.clear();
         list2.add("test");
         System.out.println(list2);
+
+
+        //// 测试双向链表
+        System.out.println("===========双向链表============");
+        LinkList_Double<Object> list3 = new LinkList_Double<>();
+        list3.add(11);
+        list3.add(22);
+        list3.add(33);
+        list3.add(44);
+        list3.add(0,55);
+        list3.add(2,66);
+
+
+        System.out.println(list3);
+        list3.remove(list3.size()-1);
+        System.out.println(list3);
     }
 }
