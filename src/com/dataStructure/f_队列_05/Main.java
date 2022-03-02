@@ -31,5 +31,28 @@ public class Main {
             System.out.println(deque.deQueueFront());   // 队头出队
         }
 
+
+        //// 测试环形队列
+        System.out.println("==========环形队列===========");
+        CircleQueue<Object> queue2 = new CircleQueue<>();
+        for(int i = 0; i<10; i++) {         // 入队10个元素 0 1 2 3 4 5 6 7 8 9
+            queue2.enQueue(i);
+        }
+
+        for(int i = 0;i<5; i++) {            // 出队5个元素 n n n n n 5 6 7 8 9
+            queue2.deQueue();
+        }
+
+
+        for(int i = 15; i<23; i++) {        // 入队       15 16 17 18 19 20
+                                            // 扩容       5 6 7 8 9 15 16 17 18 19 20 21 22
+            queue2.enQueue(i);
+        }
+
+        //System.out.println(queue);
+        while (!queue2.isEmpty()) {
+            System.out.println(queue2.deQueue());// 出队
+
+        }
     }
 }
