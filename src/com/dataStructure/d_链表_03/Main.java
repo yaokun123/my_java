@@ -50,9 +50,25 @@ public class Main {
         list3.add(0,55);
         list3.add(2,66);
 
-
         System.out.println(list3);
         list3.remove(list3.size()-1);
         System.out.println(list3);
+
+
+        System.out.println("===========单向循环链表============");
+        LinkList_SingleCircle<Object> list4 = new LinkList_SingleCircle<>();
+
+
+        list4.add(11);
+        list4.add(22);
+        list4.add(33);
+        list4.add(44);
+        list4.add(0,55);
+        list4.add(2,66);
+
+
+        System.out.println(list4);
+        list4.remove(list4.size()-1);
+        System.out.println(list4);
     }
 }
