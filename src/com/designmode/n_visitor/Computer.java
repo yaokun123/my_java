@@ -4,6 +4,7 @@ package com.designmode.n_visitor;
 public class Computer {
     /**
      * visitor模式访问的是结构固定的
+     * 多数用在编译器上
      */
     ComputerPart cpu = new CPU();
     ComputerPart memory = new Memory();
