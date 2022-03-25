@@ -3,7 +3,7 @@ package com.designmode.b_strategy;
 import java.util.Arrays;
 
 /**
- * 策略模式
+ * 策略模式-封装不同的算法，算法之间能互相替换
  */
 public class Main {
     public static void main(String[] args){

@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 /**
- * 适配器模式(包装器/转换器)，将原来不兼容的两个类融合在一起
+ * 适配器模式(包装器/转换器)-将原来不兼容的两个类融合在一起
  */
 public class Main {
     public static void main(String[] args) throws Exception{

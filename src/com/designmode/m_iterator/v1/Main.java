@@ -1,6 +1,7 @@
 package com.designmode.m_iterator.v1;
 
 /**
+ * 迭代器模式-提供一种方法顺序访问一个聚合对象中的各个元素
  * v1:构建一个容器可以添加对象
  */
 public class Main {

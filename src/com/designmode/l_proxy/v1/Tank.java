@@ -3,6 +3,7 @@ package com.designmode.l_proxy.v1;
 import java.util.Random;
 
 /**
+ * 代理模式-为其他对象提供一种代理以控制对这个对象的访问
  * 问题：我想记录坦克的移动时间
  */
 public class Tank implements Movable{

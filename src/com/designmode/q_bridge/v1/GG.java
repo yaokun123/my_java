@@ -1,5 +1,8 @@
 package com.designmode.q_bridge.v1;
 
+/**
+ * 桥接模式-将两个能够独立变化的部分分离开来
+ */
 public class GG {
     public void chase(MM mm){
         Gift g = new Book();

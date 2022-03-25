@@ -1,5 +1,8 @@
 package com.designmode.c_factory;
 
+/**
+ * 工厂模式-不同条件下创建不同实例
+ */
 public class Main {
     public static void main(String[] args){
         /*Car c = new Car();

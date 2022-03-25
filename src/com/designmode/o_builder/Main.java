@@ -1,7 +1,7 @@
 package com.designmode.o_builder;
 
 /**
- * 建造者模式，用来创建复杂的复合对象
+ * 建造者模式-用来创建复杂的复合对象
  */
 public class Main {
     public static void main(String[] args) {

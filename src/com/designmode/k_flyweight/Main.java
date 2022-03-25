@@ -1,7 +1,7 @@
 package com.designmode.k_flyweight;
 
 /**
- * 享元模式，重复利用对象
+ * 享元模式，重复利用对象-使用对象池来减少重复对象的创建
  */
 public class Main {
     public static void main(String[] args){

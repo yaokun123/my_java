@@ -3,6 +3,10 @@ package com.designmode.h_chainofresponsibility;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *责任链模式-拦截的类都实现统一接口，每个接收者都包含对下一个接收者的引用。
+ * 将这些对象连接成一条链，并且沿着这条链传递请求，直到有对象处理它为止。
+ */
 public class Main {
     /**
      * 在论坛上发表文章

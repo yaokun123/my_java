@@ -1,6 +1,8 @@
 package com.designmode.n_visitor;
 
-// 访问者模式
+/**
+ * 访问者模式-稳定数据结构，定义新的操作行为
+ */
 public class Computer {
     /**
      * visitor模式访问的是结构固定的

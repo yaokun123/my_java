@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 组合模式，处理树状结构
+ * 组合模式，处理树状结构-将整体与局部（树形结构）进行递归组合，让客户端能够以一种的方式对其进行处理
  */
 abstract class Node{
     abstract public void p();
