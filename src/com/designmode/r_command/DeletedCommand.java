@@ -1,0 +1,21 @@
+package com.designmode.r_command;
+
+public class DeletedCommand extends Command {
+    Content c;
+    String deleted;
+
+    public DeletedCommand(Content c) {
+        this.c = c;
+    }
+
+    @Override
+    public void doit() {
+        deleted = c.msg.substring(0,5);
+        c.msg = c.msg.substring(5,c.msg.length());
+    }
+
+    @Override
+    public void undo() {
+        c.msg = deleted + c.msg;
+    }
+}
