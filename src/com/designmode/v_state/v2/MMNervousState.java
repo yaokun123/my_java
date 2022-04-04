@@ -13,6 +13,6 @@ public class MMNervousState extends MMState{
 
     @Override
     void say() {
-        System.out.println("nervous smile");
+        System.out.println("nervous say");
     }
 }
